@@ -14,7 +14,6 @@
     --red: #ed1c24;
     --white: #ffffff;
     --black: #000000;
-    --heading-red: #f85d5d;
     --grey: grey; 
 }
 
@@ -78,6 +77,12 @@
 }
 .mt-5{
     margin-top: 25px;
+}
+.mt-6{
+    margin-top: 30px;
+}
+.mt-7{
+    margin-top: 35px;
 }
 
 .mb-1{
@@ -184,6 +189,12 @@
 }
 .pl-5{
     padding-left: 25px;
+}
+.pl-6{
+    padding-left: 30px;
+}
+.pl-7{
+    padding-left: 35px;
 }
 .pr-1{
     padding-right: 5px;
@@ -449,7 +460,7 @@ li:hover{
     width: 50%;
 }
 .special-main{
-    background-color:#242424;
+    background-color: rgb(66, 63, 63);
     /* height: 345px; */
 }
 .special-btn{
@@ -474,6 +485,89 @@ li:hover{
     /* responsive work end  */
 }
 /* special offer end  */
+/* footer work start  */
+/* box1 work  */
+.box1{
+    padding-left: 60px;
+}
+.foot-para{
+    font-size: 13px;
+}
+/* box 1 work end  */
+.footer-main{
+    background-color: rgb(66, 63, 63);
+    width: 100%;
+}
+/* box2 work start  */
+.box2{
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 12px;
+}
+/* box 2 work end  */
+/* box 3 work start  */
+.box3{
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 12px;
+}
+/* box 3 work end  */
+/* box 4 work start  */
+.box4{
+    padding-left: 80px;
+    padding-bottom: 50px;
+    
+    
+}
+.foot-follow{
+    font-size: 12px;
+
+}
+/* box 4 work end  */
+/* last footer work start  */
+.last-foot-para-1{
+    font-size: 12px;
+    padding-left: 50px;
+    
+}
+.last-foot-para-2{
+    font-size: 12px;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+/* last footer work end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
