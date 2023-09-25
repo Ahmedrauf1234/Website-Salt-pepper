@@ -389,7 +389,7 @@ li:hover{
 }
 .discover-para{
     width: 70%;
-    font-size: 15px;
+    font-size: 12px;
 }
 .discover-content{
     width: 50%;
@@ -421,9 +421,18 @@ li:hover{
         .discover-para{
             width: 100%;
         }
-        
-}
-/* discover work end  */
+    }
+        @media(max-width:1170px){
+            .discover-btn{
+                margin-bottom: 20px;
+            }
+            .discover-head{
+                margin-top: 20px;
+            }
+        }
+        /* responsive degsin end*/
+
+         /* discover work end  */
 
 
 /* deals work start  */
@@ -469,8 +478,11 @@ li:hover{
      
 }
 #special-text{
-    letter-spacing: 5px;
-    font-size: 16px;
+    letter-spacing: 6px;
+    font-size: 11px;
+}
+.special-para{
+    font-size:12px;
 }
 
 /* responsive desgin start  */
@@ -482,11 +494,13 @@ li:hover{
         width: 70%;
         
     }
-    /* responsive work end  */
 }
+    /* responsive work end  */
 /* special offer end  */
+
+
 /* footer work start  */
-/* box1 work  */
+/* box 1 work start */
 .box1{
     padding-left: 60px;
 }
@@ -538,6 +552,29 @@ li:hover{
     padding-left: 50px;
     
 }
+/* responsive desgin start  */
+@media(max-width:420px){
+    .box2{
+        padding-left: 105px;
+    }
+    .box3{
+        padding-left: 100px;
+    }
+    .box4{
+        padding-left: 100px;
+    }
+    .foot-para{
+        font-size: 8px;
+    }
+    .last-foot-para-1,.last-foot-para-2{
+        font-size: 9px;
+    }
+    .foot-img{
+        width: 110px;
+    }
+}
+/* responsive desgin work end  */
+
 /* last footer work end  */
 
 
