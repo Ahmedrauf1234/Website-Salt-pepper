@@ -389,7 +389,7 @@ li:hover{
 }
 .discover-para{
     width: 70%;
-    font-size: 12px;
+    font-size: 11px;
 }
 .discover-content{
     width: 50%;
@@ -574,8 +574,170 @@ li:hover{
     }
 }
 /* responsive desgin work end  */
-
 /* last footer work end  */
+                
+                         /* About.html work start  */
+
+                         
+
+/* introduction work start  */
+.intro{
+    color: #6f6d6d;
+    text-align: center;
+
+}
+.intro-para{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 13px;
+}
+/* introduction work start  */
+
+/* restaurent work start  */
+.restaurant-main{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+   
+}
+.restaurant-content{
+    width: 50%;
+    /* padding-bottom: 100px; */
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.restaurant-img{
+    width: 50%;
+    height: 355px;
+    
+}
+.restaurant-img-2{
+    width: 100%;
+    height: 355px;
+   
+}
+.restaurant-para{
+    font-size: 13px;
+}
+/* responsive work start  */
+@media(max-width:900px){
+    .restaurant-main{
+        flex-direction: column;
+    }
+    .restaurant-head{
+        font-size: 13px ;
+    }
+    .restaurant-content{
+        /* flex: none; */
+        width: 100%;
+    }
+    .restaurant-img{
+        width: 100%;
+        
+    }
+    }
+    /* responsive work end  */
+
+                     /* publications work start  */
+
+    /* books work start  */
+     .book-1{
+          border: 1px solid  rgb(68, 67, 67);
+          margin-top: 50px;
+          padding-top: 40px;
+          padding-bottom: 40px;
+          padding-left: 10px;
+          padding-right: 10px;
+          
+      }     
+      .book-2{
+        border: 1px solid  rgb(68, 67, 67);
+        margin-top: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }       
+
+      .book-img{
+           width: 500px;
+           height: 400px;
+    }
+    /* books work end  */
+
+    /* responsive work start  */
+    @media(max-width:600px){
+        .book-img{
+            width: 300px;
+            height: 250px;
+        }
+        .book{
+            
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        
+        }
+    @media(max-width:350px){
+        .book{
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-left: 9px;
+            padding-right: 9px;
+
+        }
+        .book-img{
+            width: 200px;
+            height: 150px;
+        }
+    }
+    /* responsive work end  */
+    /* branches work start */
+
+    .main-branches{
+        text-align: center;
+    }
+    .branch-head{
+        font-size: 20px;
+    }
+    .branch-para{
+        font-size: 11px;
+    }
+    /* branches work end  */
+
+                           /* Feedback work start  */
+    /* form work start  */
+    
+   label{
+    color: var(--white);
+   }
+   .feed-back{
+    text-align: center;
+   }
+   .feed-btn{
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+}
+.feed-btn:hover{
+    background-color: var(--blue);
+}
+/* form work end  */
+
+    
+
+
+
+
+
+
+
+
+
+
+
 
 
 
