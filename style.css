@@ -555,13 +555,13 @@ li:hover{
 /* responsive desgin start  */
 @media(max-width:420px){
     .box2{
-        padding-left: 105px;
+        padding-left: 128px;
     }
     .box3{
-        padding-left: 100px;
+        padding-left: 125px;
     }
     .box4{
-        padding-left: 100px;
+        padding-left: 125px;
     }
     .foot-para{
         font-size: 8px;
