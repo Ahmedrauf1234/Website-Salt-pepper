@@ -375,6 +375,9 @@ li:hover{
 }
 /* responsive desgin end  */
 /* choose by category work end  */
+
+
+
 /* discover work start */
 
 .main-discover{
@@ -712,9 +715,11 @@ li:hover{
     
    label{
     color: var(--white);
-   }
+    
+}
    .feed-back{
     text-align: center;
+    
    }
    .feed-btn{
     background-color: var(--red);
@@ -724,10 +729,73 @@ li:hover{
 .feed-btn:hover{
     background-color: var(--blue);
 }
+input{
+    padding: 9px;
+    border-radius: 10px;
+    
+}
+
+/* responsive work start  */
+@media(max-width:600px){
+   .form input{
+        width: 300px;
+    }
+}
+@media(max-width:350px){
+    .form input{
+        width: 200px;
+    }
+}
+/* responsive work end  */
+
 /* form work end  */
+                     
+                     /* get a frnchise work start  */
 
     
-
+.container{
+    padding-left: 80px;
+    padding-right: 80px;
+    /* text-align: center; */
+}
+.french-form-1,.french-form-2{
+    margin-top: 30px;
+    padding-left: 10px ;
+    padding-right:10px ;
+}
+.french-head{
+    margin-top: 50px;
+}
+/* responsive work start  */
+@media(max-width:700px){
+     .french-form-2 input{
+        width: 450px;
+    }
+    .french-form-1 input{
+        width: 450px;
+    }
+ }
+ @media(max-width:550px){
+       .french-form-2 input{
+          width: 350px;
+     }
+     .french-form-1 input{
+        width: 350px;
+     }
+ }
+ @media(max-width:400px){
+    .french-form-2 input{
+        width: 250px;
+    }
+    .french-form-1 input{
+        width: 250px;
+     }
+     .french-head{
+        font-size: 25px;
+        
+     }
+    }
+ /* responsive work end  */
 
 
 
